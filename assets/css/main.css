@@ -2418,6 +2418,10 @@ input[type="radio"]:focus + label:before {
   color: #8cc9f0;
 }
 
+.icon.style6 {
+  color: yellow;
+}
+
 @media screen and (max-width: 1680px) {
   .icon.major:before {
     font-size: 5.5rem;
