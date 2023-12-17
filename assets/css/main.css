@@ -3316,7 +3316,7 @@ body.is-preload #header.alt .logo {
   width: 64em;
   max-width: calc(100% - 4em);
   padding: 1em;
-  background-color: #f7f7f7;
+  background-color: #e2e2e2;
   border-top-left-radius: 0.25em;
   border-top-right-radius: 0.25em;
   cursor: default;
@@ -3435,7 +3435,7 @@ body.is-preload #header.alt .logo {
 /* Main */
 
 #main {
-  background-color: #ffffff;
+  background-color: #f7f7f7;
   color: #636363;
   border-radius: 0.25em;
 }

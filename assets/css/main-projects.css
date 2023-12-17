@@ -2,9 +2,82 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 0;
 }
 
-.project {
-  flex: 1;
+.project-name {
+  padding: 20px;
+  font-weight: bold;
+}
+
+.project-tags {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 20px;
+}
+
+.project-tags li {
   list-style-type: none;
+  margin: 0;
+  padding: 6px;
+  font-weight: bold;
+}
+.project {
+  height: fit-content;
+  margin: 20px;
+  flex: 1;
+  text-align: center;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project img {
+  margin: 20px auto; /* This centers the image horizontally */
+  display: block; /* This ensures that the image is centered within its parent */
+  max-width: 600px; /* Limits the image width to 200 pixels */
+  max-height: 600px; /* Limits the image height to 150 pixels */
+}
+
+.project-description {
+  margin: 20px;
+}
+
+/* Tech Tags styles */
+.react {
+  color: #36dff8;
+}
+
+.redux {
+  color: #764abc;
+}
+
+.js {
+  color: #f0db4f;
+}
+
+.bootstrap {
+  color: #4b086b;
+}
+
+.cpp {
+  color: #00599c; /* C++ blue color */
+}
+
+.directx {
+  color: #1768ac; /* DirectX blue color */
+}
+
+.vs {
+  color: #5d2b90; /* Visual Studio purple color */
+}
+
+.nestjs {
+  color: #e0234e; /* NestJS red color */
+}
+
+.graphql {
+  color: #e10098; /* GraphQL pink color */
 }
