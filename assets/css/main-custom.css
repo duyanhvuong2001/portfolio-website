@@ -1,0 +1,73 @@
+.logo {
+  max-width: 170px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  box-shadow: 0 0 0 5px #fff, 0 0 0 6px gray;
+  margin: 20px;
+}
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  position: relative;
+}
+
+.timeline-content h2,
+.timeline-content h3 {
+  margin: 0;
+}
+
+.timeline-period {
+  display: block;
+  font-weight: bold;
+  color: #333; /* Period color */
+  margin-bottom: 10px; /* Adjust the space between period and heading */
+}
+.company-name {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.role {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.list {
+  margin: 20px;
+}
+
+.list span {
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.list span::before {
+  content: "\2022"; /* Unicode character for a bullet point */
+  color: #3498db;
+  font-size: 1.2em;
+  position: absolute;
+  left: -20px; /* Adjust the distance from the left */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.career-item {
+  flex: 1; /* This will make each .career take up an equal share of the available space */
+  box-sizing: border-box;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.test {
+  display: flex;
+  flex-direction: row;
+}
+
+.major h2 {
+  color: grey;
+}
