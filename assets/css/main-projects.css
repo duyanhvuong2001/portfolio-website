@@ -85,3 +85,18 @@
 .graphql {
   color: #e10098; /* GraphQL pink color */
 }
+
+/* ASP.NET color */
+.aspnet {
+  color: #4d91d7; /* ASP.NET blue color */
+}
+
+/* PostgreSQL color */
+.postgresql {
+  color: #336791; /* PostgreSQL blue color */
+}
+
+/* Entity Framework Core (EF Core) color */
+.efcore {
+  color: #2b6e41; /* EF Core green color */
+}
