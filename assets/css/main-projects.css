@@ -37,12 +37,16 @@
 .project img {
   margin: 20px auto; /* This centers the image horizontally */
   display: block; /* This ensures that the image is centered within its parent */
-  max-width: 600px; /* Limits the image width to 200 pixels */
+  max-width: 500px; /* Limits the image width to 200 pixels */
   max-height: 600px; /* Limits the image height to 150 pixels */
 }
 
 .project-description {
   margin: 20px;
+}
+
+.devicon {
+  font-size: 100px;
 }
 
 /* Tech Tags styles */

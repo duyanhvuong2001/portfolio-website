@@ -1,0 +1,16 @@
+.certifications {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.certification {
+  flex: 1;
+  list-style-type: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+}
+
+.certification img {
+  max-width: 1000px;
+}

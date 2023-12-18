@@ -2976,6 +2976,7 @@ table.alt tbody tr td {
   padding: 0;
   list-style: none;
   cursor: default;
+  flex-wrap: wrap;
 }
 
 .statistics li {
@@ -2984,16 +2985,34 @@ table.alt tbody tr td {
   -ms-flex: 1;
   flex: 1;
   padding: 1.5em;
-  color: #ffffff;
   text-align: center;
+  color: white;
 }
 
+.statistics li.bg-blue {
+  background-color: #3498db;
+}
+
+.statistics li.bg-light-blue {
+  background-color: #e6f7ff;
+}
+
+.statistics li.bg-dark-blue {
+  background-color: #001f3f; /* Dark blue color */
+}
+.statistics li.bg-light-grey {
+  background-color: #f2f2f2;
+}
+
+.statistics li.bg-white {
+  background-color: ecf0f1;
+}
 .statistics li.style1 {
   background-color: #efa8b0;
 }
 
 .statistics li.style2 {
-  background-color: #c79cc8;
+  background-color: #2ecc71;
 }
 
 .statistics li.style3 {
