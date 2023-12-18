@@ -1,10 +1,11 @@
 .certifications {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   padding: 0;
 }
 .certification {
+  height: fit-content;
   flex: 1;
   list-style-type: none;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -12,5 +13,6 @@
 }
 
 .certification img {
-  max-width: 1000px;
+  max-width: 100%;
+  height: auto;
 }
